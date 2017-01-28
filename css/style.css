@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightpink;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100vw;
+    height: 100vh;
+    /*background-color: red;*/
+}
+
+.base {
+    height: 80vh;
+    /*background-color: yellow;*/
+}
+
+.base > img {
+    height: 100%;
+}
+
+.closet {
+    height: 80vh;
+    width: 60vw;
+    cursor: pointer;
+    /*background-color: white;*/
+}
+
+.closet img {
+    height: 50%;    
+}
+
+.closet img:nth-child(1n+3) {
+    height: 30%;
+}
+.closet img:nth-child(1n+6) {
+    height: 27%;
+}
